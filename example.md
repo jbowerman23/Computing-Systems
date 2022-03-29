@@ -14,6 +14,7 @@ int main() {
 Link Title        Link Address
 
 [Duck Duck Go](https://duckduckgo.com)
+
 ---
 ### Bullet Points
 <ul>

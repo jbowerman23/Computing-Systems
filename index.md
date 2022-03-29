@@ -3,9 +3,8 @@
 ---
 
 ## Template Code
-<ul>
-  <li>[Template Code](examplecode.md)</li>
-  <li>[Template Code Example](examplecode.md)</li>
+[Template Code](examplecode.md)
+[Template Code Example](examplecode.md)
 ---
   
   ## Week 1

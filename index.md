@@ -1,3 +1,4 @@
-# Welcome to Jess' Computing Systems Notes :)
+# Computing Systems Notes
+## By Jessica Bowerman
 ---
 ## Week 1

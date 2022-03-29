@@ -17,7 +17,7 @@ int main() {
 using namespace std;
 
 int add(int a, int b) {
-int c = a + b;
-return c;
+  int c = a + b;
+  return c;
 }
 ```

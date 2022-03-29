@@ -28,11 +28,12 @@ if(id == -1){
 
 <ul>
   <li>Child can change the program it executes</li>
-   <ul>
-      <li>Invoke exec family of system call to change its memory image/li>
-      <li>stops executing code in parent program and starts new program</li>
-   </ul>
+  <ul>
+    <li>Invoke exec family of system call to change its memory image/li>
+    <li>stops executing code in parent program and starts new program</li>
+  </ul>
 </ul>
+
 
 ```c++
 pid_t id = fork();

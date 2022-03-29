@@ -32,7 +32,6 @@ if(id == -1){
       <li>Invoke exec family of system call to change its memory image</li>
       <li>stops executing code in parent program and starts new program</li>
     </ul>
-  </li>
 </ul>
 
 

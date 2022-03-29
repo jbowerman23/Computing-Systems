@@ -32,7 +32,7 @@ Link Title        Link Address
 
 ### Image
 
-Computers!](https://i0.wp.com/www.dedicatedcomputing.com/wp-content/uploads/Untitled-design-92-1.png?resize=409%2C457)
+![Computing Systems!](https://i0.wp.com/www.dedicatedcomputing.com/wp-content/uploads/Untitled-design-92-1.png?resize=409%2C457)
 
 
 

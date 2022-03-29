@@ -2,7 +2,8 @@
 
 ### Markdown Code Section
 
-'int main(){
-  int a = 1;'
-  int b = 3;
- }'
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```

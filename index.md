@@ -2,10 +2,9 @@
 ## By Jessica Bowerman
 ---
 ## Template Code
-  [Template Code](examplecode.md) <br>
-  [Template Code Example](examplecode.md)
+[Template Code](eample) <br>
+[Template Code Example](examplecode.md) <br>
 ---
 ## Quarter Weeks
 [Week 1](w1.md) <br>
-[Template Code](eamplecode) <br>
-[Template Code Example](examplecode.md) <br>
+

@@ -3,7 +3,7 @@
 ### Markdown Code Section
 
 ```c++
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+int main() {
+  cout << "Hello World" << endl;
+}
 ```

@@ -1,5 +1,6 @@
 # Processes and Threads
 ---
+
 ### Fork Call
 <ul>
   <li>Upon sucess, fork returns child ID to parent process</li>
@@ -22,6 +23,7 @@ if(id == -1){
 }
 ```
 ---
+
 ### Alternate Fork Call
 
 <ul>

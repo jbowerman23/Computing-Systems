@@ -9,12 +9,14 @@ int main() {
 }
 ```
 ---
+
 ### Links
 
 Link Title        Link Address
 
 [Duck Duck Go](https://duckduckgo.com)
 ---
+
 ### Bullet Points
 <ul>
   <li>First item</li>

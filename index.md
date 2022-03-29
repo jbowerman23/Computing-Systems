@@ -2,7 +2,7 @@
 ## By Jessica Bowerman
 ---
 ## Template Code
-permalink: /jbowerman23/Computing-Systems/example <br>
+###### [Template Code](examplecode.txt) <br>
 ###### [Template Code Example](examplecode.md) <br>
 ---
 ## Quarter Weeks

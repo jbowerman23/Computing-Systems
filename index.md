@@ -1,6 +1,7 @@
 # Computing Systems Notes
 ## By Jessica Bowerman
 ---
+
 ## Quarter Weeks
 [Week 1](w1.md) <br>
 [Week 2](w2.md)

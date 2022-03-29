@@ -3,7 +3,7 @@
 ---
 
 ## Template Code
-[Template Code](examplecode.md)
+[Template Code](examplecode.md) <br>
 [Template Code Example](examplecode.md)
 ---
   

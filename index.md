@@ -1,6 +1,11 @@
 # Computing Systems Notes
 ## By Jessica Bowerman
 ---
-## Week 1
 
-[Template Code](examplecode.md)
+## Template Code
+<ul>
+  <li>[Template Code](examplecode.md)</li>
+  <li>[Template Code Example](examplecode.md)</li>
+---
+  
+  ## Week 1

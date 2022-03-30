@@ -1,6 +1,25 @@
-# Processes and Threads
+# Process and Threads
 ---
 
+## Process
+<ul>
+  <li>Abstraction for a running program instance</li>
+  <li>A process is not equivalent to a program</li>
+  <li>More to process than just a program</li>
+</ul>
+
+---
+## Program Execution
+<ul>
+  <li>To execute a program, corresponding process must be created</li>
+  <ul>
+      <li>Others are created or needed as needed/requested</li>
+    </ul>
+  <li>After creation, process becomes active or ready for execution</li>
+</ul>
+
+
+---
 ### Fork Call
 <ul>
   <li>Upon sucess, fork returns child ID to parent process</li>

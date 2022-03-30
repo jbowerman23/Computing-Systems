@@ -83,3 +83,12 @@ if(id == -1){
 * If parent terminantes before child...
   * Child is now an orphan process
   * Orphan processes are adopted by init process
+
+---
+### Zombie process
+- If a child process terminated before parent
+  - System will still need to keep child's PCB
+  - Child process becomes a zombie process
+    - "Dead" but not "reaped"
+  - Parent process con reap children by waiting for them to terminate
+    - OS provides system call for this -> wait

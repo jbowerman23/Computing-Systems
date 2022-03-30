@@ -104,3 +104,11 @@ if(id == -1){
 - Process switching mechanism needs hardware & OSsupport
   - Requires transition to kernel mode -> uses interrupt
   - Overhead to switch depends on hardware support
+
+---
+### Limited Direct Execution (LDE) Protocol
+- "Direct Execution" - run programs directly on CPU
+- Two issues
+  - If we just run a program, how can OS make sure the program doesn't do anything that we don't want it to do, while still running it efficiently?
+  - When we are running a process, how does OS stop it from running and switch to another process(i.e., how does OS implement time sharing)?
+- Without limits on running programs, the OS would not be in control of anything

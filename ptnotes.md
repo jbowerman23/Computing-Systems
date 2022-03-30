@@ -18,6 +18,13 @@
   <li>After creation, process becomes active or ready for execution</li>
 </ul>
 
+---
+## Key Process Terms
+<ul>
+  <li>The process is the major OS abstraction of a running program</li>
+  <li>Processes exists in one of many difference process states, including running, ready, and waiting/blocked</li>
+  <li>A process list contains information about all processes in the system</li>
+</ul>
 
 ---
 ### Fork Call

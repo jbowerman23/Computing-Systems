@@ -8,6 +8,9 @@
 
 ---
 
+![Computing Systems!](http://ai.business/wp-content/uploads/2017/01/BrainComputer.jpg)
+
+---
 ## Template Code
 [Template Code](https://raw.githubusercontent.com/jbowerman23/Computing-Systems/gh-pages/example.md) <br>
 [Template Code Example](example.md)

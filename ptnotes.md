@@ -87,8 +87,8 @@ if(id == -1){
 - ...return value to enable conditional execution after fork
   - So, even though program is same, paths can be different!
   - Different behavior can thus be achieved in parent and child
----
 
+---
 ### Alternate Fork Call
 
 <ul>
@@ -114,7 +114,7 @@ if(id == -1){
 ```
 
 ---
-### On Unix based systems...
+## On Unix based systems...
 
 * OS maintains notion of process hierarchy
   * A process, its children, their children, etc
@@ -124,7 +124,7 @@ if(id == -1){
   * Orphan processes are adopted by init process
 
 ---
-### Zombie process
+## Zombie process
 - If a child process terminated before parent
   - System will still need to keep child's PCB
   - Child process becomes a zombie process
@@ -133,7 +133,7 @@ if(id == -1){
     - OS provides system call for this -> wait
 
 ---
-### Process switching/context switching
+## Process switching/context switching
 - Example scenarios that may trigger process switch
   - Processtermination(voluntary/involuntary)
   - New process activation
@@ -145,7 +145,7 @@ if(id == -1){
   - Overhead to switch depends on hardware support
 
 ---
-### Limited Direct Execution (LDE) Protocol
+## Limited Direct Execution (LDE) Protocol
 - "Direct Execution" - run programs directly on CPU
 - Two issues
   - If we just run a program, how can OS make sure the program doesn't do anything that we don't want it to do, while still running it efficiently?
@@ -153,7 +153,7 @@ if(id == -1){
 - Without limits on running programs, the OS would not be in control of anything
 
 ---
-### Context Switch and Mode Switch
+## Context Switch and Mode Switch
 
 - An interrupt, exception or syscall results in a mode switch
 - Context switch: An operating system may choose to save a process' state and restore another process' state -> preemption

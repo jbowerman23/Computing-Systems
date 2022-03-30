@@ -73,3 +73,13 @@ if(id == -1){
   cout << "I just became a parent!\n";
 }
 ```
+
+---
+### On Unix based systems...
+
+* OS maintains notion of process hierarchy
+  * A process, its children, their children, etc
+* Parent must be allowed to read child's exit status
+* If parent terminantes before child...
+  * Child is now an orphan process
+  * Orphan processes are adopted by init process

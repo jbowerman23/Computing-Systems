@@ -92,3 +92,15 @@ if(id == -1){
     - "Dead" but not "reaped"
   - Parent process con reap children by waiting for them to terminate
     - OS provides system call for this -> wait
+
+---
+### Process switching/context switching
+- Example scenarios that may trigger process switch
+  - Processtermination(voluntary/involuntary)
+  - New process activation
+  - Executingprocessgetsblocked (e.g., due to system call)
+  - Eventcompletion
+  - Time slice expiration
+- Process switching mechanism needs hardware & OSsupport
+  - Requires transition to kernel mode -> uses interrupt
+  - Overhead to switch depends on hardware support

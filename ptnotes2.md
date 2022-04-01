@@ -15,6 +15,7 @@
     - Memory management information
     - Accounting information - time limits, etc 
 
+---
 ## Unix process creation (fork)
 - Process invokes fork to initiate creation of new process
 - Creating process is parent and new process is child
@@ -23,7 +24,7 @@
   - Memory image, environment settings I/O handles, etc
   - Of course child get its own ID, scheduling info etc
 
-
+---
 ## Fork()
 - fork call returns a value
   - Upon success, fork returns child ID to parent
@@ -43,7 +44,7 @@ if(id == -1){
   cout << "I just became a parent!\n";
 }
 ```
-
+---
 ## EXEC System call
 - Child can change the program it executes
 - Invove exec family of system calls to change its memory image
@@ -102,3 +103,64 @@ void fork_example() {
 }
 
 ```
+---
+## Looking deeper into processes
+- Process embodies two primary characterisitics
+  - Resource ownership
+  - Execution of a sequence of instrutions
+    - This characteristic is captured by abstration called thread
+  - Process provides environment and resources for thread execution
+
+- Process could contain multiple instruction sequences
+- Sequences can be modeled as threads in single process
+  - Allows concurrency within single process
+
+- Word processor
+  - Thread to interface with user
+  - Thread to reformat document in the background
+  - Thread to perform auto save
+
+- Web server
+  - Dispatcher thread listens for requests on given connection
+  - Requests serviced by different worker thread
+
+---
+## Thread states
+- Similar to processes, threads also can be in different states
+  - States and transitions are similar to processes
+
+---
+## What info is per-thread
+- Program counter
+- Stack and stack pointer
+- Registers
+
+---
+## Thread Info
+- Just like PCBs are used for processes
+- ... Thread Control Blocks are used to maintain info
+
+---
+# **Important points to note**
+
+- Proccess -> instance of single program owned by single user
+- OS provides no protection among threads of same process
+  - Assumption threads within process cooperate, not compete
+- All thread specific data (TCBs & stacks for all threads)
+  - Part of process memory image...
+  - …and hence accessible to all threads
+- Programs must be carefully designed & implemented to ensure correctness
+- Every process has at least one thread of execution (e.g., main)
+  - Processes start with this one default thread
+  - This thread can create other threads, which can create more,
+
+---
+## Advantages of multi-threading
+- More efficient CPU utilization within process
+- Creation/termination of threads is cheap
+- Context switch time between threads of process is minimal
+  - only info exclusive to threads needs to be "switched"
+- Supports effective communication due to shared memory
+
+
+

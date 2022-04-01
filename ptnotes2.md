@@ -63,3 +63,42 @@ if(id == -1){
 ```
 
 ## CLion Example - Processes.cpp
+
+```c++
+#include <iostream>
+#include <unistd.h>
+
+void fork_example();
+
+int main() {
+    pid_t id = fork();
+    if(id == -1) {
+        std::cout << "Error creating process\n";
+    }
+    else if (id == 0) {
+        // child process functionality
+        char* args[] = {(char *) "echo", (char *) "Hello,", (char *) " World!", NULL};
+        execvp(args[0], args);
+    }
+    else {
+        std::cout << "I just became a parent!\n";
+        int status;
+        waitpid(id, &status, 0);
+    }
+
+    //fork_example();
+    return 0;
+}
+
+void fork_example() {
+
+    //fork() returns 0 to the child and the child's ID to the parent
+    //Recap truthy and falsey
+    if (fork ()) {
+        fork ();
+    } else {
+        std::cout << "Hello";
+    }
+}
+
+```

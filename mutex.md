@@ -36,7 +36,8 @@ mutex_unlock:
 ---
 ## Pthread mutex
 
-![Computing Systems!](https://redhawks-my.sharepoint.com/:i:/g/personal/bowermanjess_seattleu_edu/EWJkgSGNlZtCmdZ5zj95ZTEBjPOWFwRTpoygfr3-6zQMEw?e=z54g1p)
+![Computing Systems!](mutex_1.png)
+![Computing Systems!](mutex_2.png)
 
 ---
 ## Header Section

@@ -75,6 +75,7 @@ turn = 1; // thread/process 1 execute
 
 - Pros
   - Mutual Exclusion correctly maintained
+    - Doesn't satisfy overall requirements though
 
 - Cons
   - Busy waiting required

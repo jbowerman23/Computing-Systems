@@ -1,4 +1,4 @@
 # Race Conditions
 ----
 
-[Race Conditions Notes](pages/racecondnotes.md) <br>
+[Race Conditions Notes](racecondnotes.md) <br>

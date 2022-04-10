@@ -36,8 +36,8 @@ mutex_unlock:
 ---
 ## Pthread mutex
 
-![Computing Systems!](images/mutex_1.png)
-![Computing Systems!](images/mutex_2.png)
+![Computing Systems!](https://github.com/jbowerman23/Computing-Systems/blob/55ca57d0ef7fc2e92f90f3c7730b03210f91a263/images/mutex_1.png)
+![Computing Systems!](https://github.com/jbowerman23/Computing-Systems/blob/55ca57d0ef7fc2e92f90f3c7730b03210f91a263/images/mutex_2.png)
 
 ---
 ## Header Section

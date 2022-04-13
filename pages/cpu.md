@@ -69,7 +69,7 @@
 
 ---
 ## Job Characteristics
-![Computing Systems!](images/Scheduling.png)
+![Computing Systems!](/images/Scheduling.png)
 
 ---
 # Scheduling Policies for Batch Systems

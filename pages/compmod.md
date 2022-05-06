@@ -69,12 +69,101 @@ Every computer will have the same 7 layers within its networking software <br>
 ### Layer Overview
 
 <font color="#A72608">**Application**</font> layer
+- Roughly covers functions of application, presentation and session layers in OSI model
 
+- Widely used application layer protocols for user services
+  - Simple Mail Transfer Protocol (SMTP) - used for email
+  - Hypertext Transfer Protocol (HTTP) - used for the world wide web
+  - File Transfer Protocol (FTP) - transferring files between computers
 
+<font color="#A72608">**Transport**</font> layer
+- Similar to transport layer in OSI model
+- Provides end to end message delivery service independent of underlying network
+  - Can provide reliability if needed
+- Provides error, flow, and congestion control
 
+- Widely used protocols
+  - Transmission Control Protocol (TCP) - connection-oriented communication protocol
+  - User Datagram Protocol (UDP) - connectionless communication protocol
 
+<font color="#A72608">**Internet**</font> layer
+- Roughly corresponds to network layer in OSI model
+- Responsible for sending units of data over network
+  - Performs routing for units of data (determines path)
+- Provides unreliable (best-effort) service
+  - Data units could arrive out of order at destination
 
+- Main protocol, universally used in today's world
+  - Internet Protocol (IP) - set of rules for routing and addressing packets of data
 
+<font color="#A72608">**Link**</font> layer (bottom layer)
+- Roughly corresponds to data link and physical layers in OSI model
+- Responsible for moving data units over link between two hosts
+  - Provides well defined interface between hosts and transmission links
+  - Includes protocols to describe local network topology
 
+---
 
+## Differences between OSI and TCP/IP Models
+---
 
+### Objective
+**OSI**
+- Generic standard model for specifying the connection procedures, layered architecture, services, interfaces, and protocols
+
+**TCP/IP**
+- Aims to provide a reliable and end to end transmission model
+
+<br>
+
+### Area Focused
+**OSI**
+- THe OSI model is a generic model
+- Universal in nature
+- Used accordingly in different types of networks as per the specifications
+
+**TCP/IP**
+- Dependent on protocols and is compatible with the current Internet architecture
+- Able to solve only a specific set of problems
+
+<br>
+
+### Data Delivery
+**OSI**
+- Facilitates the connection oriented transfer
+- Guarantees the delivery of packets
+
+**TCP/IP**
+- Facilitates both connection oriented as well as connectionless transfer
+- Does not guarantee the delivery of data packets
+
+<br>
+
+### Reliable and Secure Connection
+**OSI**
+- Does not have any special mechanism for providing a reliable and secure connection for data transmission
+
+**TCP/IP**
+- Has a way for providing a reliable and secure connection link over the network
+
+<br>
+
+## Key Differences
+**OSI**
+- Logical and conceptual model that defines network communication used by systems open to interconnection and communication with others
+- Connection oriented
+- Helps to standardize router, switch, motherboard, and other hardware
+
+**TCP/IP**
+- Helps you determine how a specific computer should be connected to the internet and how data units can be transmitted between them
+- Both connection-oriented and connectionless
+- Helps to establish a connection between different types of computers
+
+---
+
+## Hybrid Approach
+5. Application -> Provides user services
+4. Transport   -> Provides end-to-end message delivery
+3. Network     -> Transfers data units between source and destination
+2. Link        -> Transfers frames over single link
+1. Physical    -> Transfers raw bits over physical medium

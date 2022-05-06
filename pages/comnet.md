@@ -63,7 +63,7 @@ Networks may use different communication media
 
 ## Who is connected to whom?
 Every computer can directly commincate with every other computer
-- <font color="#A72608">**Mesh** topology</font> 
+- **<font color="#A72608">Mesh</font>** topology
   - Each computer connected to every other computer
 - <font color="#A72608">**Bus** topology</font> 
   - All computers connected to common bus

@@ -16,25 +16,25 @@
 - Provides variety of commonly used functions
   - File transfer, email, etc (actual data/message resides)
 
-<font color="#A72608">**Presentation**</font> layer
+**<font color="#A72608">Presentation</font>** layer
 - Handles formatting details for data to be communicated
   - Encryption, compression, stream formatting, etc
 
-<font color="#A72608">**Session**</font> layer
+**<font color="#A72608">Session</font>** layer
 - Provides services to initiate, maintain and evenutally terminate a connection between sender and receiver
 
-<font color="#A72608">**Transport**</font> layer
+**<font color="#A72608">Transport</font>** layer
 - Provides end to end message delivery service (deliver to transport layer on recipient's side)
 - Controls rate of transfer and ensures network is not overloaded
   - Flow control and congestion control (helps prevent bottleneck)
 
-<font color="#A72608">**Network**</font> layer
+**<font color="#A72608">Network</font>** layer
 - Controls actual transfer of data units through the network
 - Determines path to take from source to destination (routing)
 - Responsible for forwarding units of data to next node/router in path
 - Shares congestion control responsibility with Transport layer
 
-<font color="#A72608">**Data Link**</font> layer
+**<font color="#A72608">Data Link</font>** layer
 - Transmits data over link between two nodes
   - May not be the endpoints
   - May be any two nodes that have a link between them on the communication path determined by network layer
@@ -43,7 +43,7 @@
   - Medium is shared by a bunch of computers
   - Taken care of by Medium Access Control (MAC) sub-layer
 
-<font color="#A72608">**Physical**</font> layer
+**<font color="#A72608">Physical</font>** layer
 - Consists of basic networking hardware
 - Transmits or receives raw bits over communication channel
 - Determines how a physical connection is established and mode of transmission
@@ -68,7 +68,7 @@ Every computer will have the same 7 layers within its networking software <br>
 
 ### Layer Overview
 
-<font color="#A72608">**Application**</font> layer
+**<font color="#A72608">Application</font>** layer
 - Roughly covers functions of application, presentation and session layers in OSI model
 
 - Widely used application layer protocols for user services
@@ -76,7 +76,7 @@ Every computer will have the same 7 layers within its networking software <br>
   - Hypertext Transfer Protocol (HTTP) - used for the world wide web
   - File Transfer Protocol (FTP) - transferring files between computers
 
-<font color="#A72608">**Transport**</font> layer
+**<font color="#A72608">Transport</font>** layer
 - Similar to transport layer in OSI model
 - Provides end to end message delivery service independent of underlying network
   - Can provide reliability if needed
@@ -86,7 +86,7 @@ Every computer will have the same 7 layers within its networking software <br>
   - Transmission Control Protocol (TCP) - connection-oriented communication protocol
   - User Datagram Protocol (UDP) - connectionless communication protocol
 
-<font color="#A72608">**Internet**</font> layer
+**<font color="#A72608">Internet</font>** layer
 - Roughly corresponds to network layer in OSI model
 - Responsible for sending units of data over network
   - Performs routing for units of data (determines path)
@@ -96,7 +96,7 @@ Every computer will have the same 7 layers within its networking software <br>
 - Main protocol, universally used in today's world
   - Internet Protocol (IP) - set of rules for routing and addressing packets of data
 
-<font color="#A72608">**Link**</font> layer (bottom layer)
+**<font color="#A72608">Link</font>** layer
 - Roughly corresponds to data link and physical layers in OSI model
 - Responsible for moving data units over link between two hosts
   - Provides well defined interface between hosts and transmission links

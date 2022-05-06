@@ -65,15 +65,15 @@ Networks may use different communication media
 Every computer can directly commincate with every other computer
 - **<font color="#A72608">Mesh</font>** topology
   - Each computer connected to every other computer
-- <font color="#A72608">**Bus** topology</font> 
+- **<font color="#A72608">Bus</font>** topology
   - All computers connected to common bus
 
 We can always get to a computer via another
-- <font color="#A72608">**Ring** topology</font> 
+- **<font color="#A72608">Ring</font>** topology
   - Each computer connected to two neighbors
-- <font color="#A72608">**Star** topology</font> 
+- **<font color="#A72608">Star</font>** topology
   - Computers connected to central hub/computer through spokes
-- <font color="#A72608">**Extended star** topology</font> 
+- **<font color="#A72608">Extended Star</font>** topology
   - Improves scalability of star topology
 
 ---

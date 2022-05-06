@@ -11,7 +11,7 @@
 ---
 
 ## OSI Layers Overview - Reference Model
-<font color="#A72608">**Application**</font> layer
+**<font color="#A72608">Application</font>** layer
 - User interface to networking services
 - Provides variety of commonly used functions
   - File transfer, email, etc (actual data/message resides)

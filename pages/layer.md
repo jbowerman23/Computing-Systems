@@ -5,9 +5,7 @@
 ---
 
 ## Types of Network Services
-Layer can provide two types of services to the layer above it 
-
-<br>
+Layer can provide two types of services to the layer above it <br>
 
 **<font color="#A72608">Connection-oriented</font>** service
 - Establish (logical) connection between source and destination
@@ -20,11 +18,7 @@ Layer can provide two types of services to the layer above it
 - Each unit of data carries full destination address
 - Data unit routed though network independent of other data unit
 
-<br>
-
-Each of these services can be of two kinds 
-
-<br>
+Each of these services can be of two kinds <br>
 
 **<font color="#A72608">Reliable</font>** service
 - Ensure data accuracy and integrity

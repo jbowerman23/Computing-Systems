@@ -95,6 +95,11 @@ See slides for Dijkstra's Algorithm
 ---
 
 ### When are routing decisions made?
-- Connectionless service (widely used)
-- 
+Connectionless service (widely used)
+- Routing decisions are made independently for every single pakcet
+- All packets that are going from a given source to a given destination may not take the same route ... depends on the algorithm and state of netowrk
+
+Connection-oriented service
+- Routing decisions are made once during the connection establishment phase
+- Same route is actually used for all packets that are part of the same connection
 

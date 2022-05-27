@@ -26,3 +26,25 @@ Application
   - The doorway leading in/out of the house
 - Socket as an Application Programming Interface
   - Supports the creation of network applications
+
+---
+
+## Two Types of Application Processes Communication
+Datagram Socket (UDP)
+- Collection of messages
+- Best effort
+- Connectionless
+
+Stream Socket (TCP)
+- In-order, stream of bytes
+- Reliable
+- Connection-oriented
+
+---
+
+## User Datagram Protocol (UDP): Datagram Socket
+- Single socket to recieve messages       - Single mailbox to receive letter
+- No guarantee of delivery                - Unreliable
+- Not necessarily in-order delivery       - Not necessarily in-order delivery
+- Datagram - independent packets          - Letters sent independently
+- Must address each packet                - Must address each mail

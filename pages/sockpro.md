@@ -43,8 +43,34 @@ Stream Socket (TCP)
 ---
 
 ## User Datagram Protocol (UDP): Datagram Socket
-- Single socket to recieve messages       - Single mailbox to receive letter
-- No guarantee of delivery                - Unreliable
-- Not necessarily in-order delivery       - Not necessarily in-order delivery
-- Datagram - independent packets          - Letters sent independently
-- Must address each packet                - Must address each mail
+UDP
+- Single socket to recieve messages       
+- No guarantee of delivery                
+- Not necessarily in-order delivery      
+- Datagram - independent packets         
+- Must address each packet   
+
+Postal Mail
+- Single mailbox to receive letter
+- Unreliable
+- Not necessarily in-order delivery
+- Letters sent independently
+- Must address each mail
+
+---
+
+## Transmission Control Protocol (TCP): Stream Socket
+TCP
+- Reliable
+- Byte stream - in order delivery
+- Connection-oriented - single socket per connection
+- Set up connection followed by data transfer
+
+Telephone Call
+- Guaranteed delivery
+- In order delivery
+- Connection oriented
+- Setup connection followed by conversation
+
+---
+

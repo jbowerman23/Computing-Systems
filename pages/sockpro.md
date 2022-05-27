@@ -17,3 +17,12 @@ Application
 - Read data from and write data to the socket
 - Interpret the data
 
+--- 
+
+## Socket: End Point of Communication
+- Sending message from one process to another
+  - Message must traverse the underlying network
+- Process sends and receives through a "socket"
+  - The doorway leading in/out of the house
+- Socket as an Application Programming Interface
+  - Supports the creation of network applications
